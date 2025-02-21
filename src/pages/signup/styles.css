@@ -1,0 +1,68 @@
+.sign-ctn {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("../../assets/web-background.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.color-ttl {
+  color: var(--basic-white);
+}
+
+.sign-ttl {
+  font-size: var(--ft38);
+  font-weight: bold;
+  margin-top: 3.75rem; /* 60px */
+}
+
+.sign-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: var(--card-gray);
+  border: solid 4px var(--border-green);
+  border-radius: 20px;
+  padding: 3.4375em 4.15625em; /* 55px 66.5px */
+  margin-top: 2.875em; /* 46px */
+  gap: 5.9375em; /* 95px */
+}
+
+.sign-card-ctn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sign-card-ttl {
+  font-size: var(--ft32);
+}
+
+.sign-card-input {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.75em; /* 12px */
+  margin-top: 0.9375em; /* 15px */
+}
+
+.sign-card-btn {
+  border: none;
+  background-color: var(--button-green);
+  font-size: var(--ft20);
+  font-weight: bold;
+  border-radius: 10px;
+  padding: 0.59375em 4.59375em; /* 9.5px 73.5px */
+  cursor: pointer;
+  margin-top: 1.5625em; /* 25px */
+
+  transition: 0.3s ease-in-out;
+}
+
+.sign-card-btn:hover {
+  transform: scale(1.1);
+  filter: brightness(1.1);
+}

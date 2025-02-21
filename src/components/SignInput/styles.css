@@ -1,0 +1,17 @@
+@import url("../../styles/colors.css");
+@import url("../../styles/fonts.css");
+
+.btn-cadastro {
+  width: 17.8125em; /* 285px */
+  background-color: var(--input-white);
+  border: solid 2px var(--border-green);
+  border-radius: 10px;
+  padding: 0.875rem 1.25rem;
+  font-size: var(--ft16);
+  outline: none;
+}
+
+.btn-cadastro::placeholder {
+  color: var(--placeholder-gray);
+  font-style: italic;
+}

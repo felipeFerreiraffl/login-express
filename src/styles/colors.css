@@ -1,0 +1,10 @@
+:root {
+  --basic-white: #ffffff;
+  --input-white: rgba(243, 243, 243, 0.9);
+  --placeholder-gray: #a0a0a0;
+  --card-gray: rgba(196, 196, 196, 0.35);
+  --button-green: #159007;
+  --border-green: #a6f56e;
+  --button-red: #900707;
+  --basic-black: #000000;
+}

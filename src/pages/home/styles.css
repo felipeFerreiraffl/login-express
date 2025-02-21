@@ -1,0 +1,10 @@
+.users-ctn {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("../../assets/web-background.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
