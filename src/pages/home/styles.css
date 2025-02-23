@@ -39,3 +39,11 @@
 .users-add:hover {
   background-color: var(--card-gray);
 }
+
+.users-cards {
+  align-self: flex-start;
+  margin-left: 5.5rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5625em 5.4375em
+}
