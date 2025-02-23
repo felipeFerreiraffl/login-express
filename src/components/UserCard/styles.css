@@ -1,0 +1,126 @@
+.card-user {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--card-gray);
+  border: solid 4px var(--border-green);
+  border-radius: 15px;
+  padding: 0.875em 1.25em; /* 14px 20px */
+  color: var(--basic-white);
+
+  @media (max-width: 450px) {
+  }
+}
+
+.card-header {
+  display: flex;
+  align-items: center;
+  gap: 6.0625em; /* 97px */
+
+  @media (max-width: 450px) {
+  }
+}
+
+.card-id {
+  font-size: var(--ft14);
+
+  @media (max-width: 450px) {
+  }
+}
+
+.card-name {
+  font-size: var(--ft24);
+  font-weight: bold;
+
+  @media (max-width: 450px) {
+  }
+}
+
+.card-eye {
+  font-size: 29px;
+  cursor: pointer;
+
+  @media (max-width: 450px) {
+  }
+}
+
+.card-info-ctn {
+  display: flex;
+  gap: 6.25em;
+  margin-left: -1.75em; /* 28px */
+
+  @media (max-width: 450px) {
+  }
+}
+
+.top-mrg {
+  margin-top: 1.5em; /* 24px */
+
+  @media (max-width: 450px) {
+  }
+}
+
+.top-mrg-2 {
+  margin-top: 0.75em; /* 12px */
+
+  @media (max-width: 450px) {
+  }
+}
+
+.card-info-icn {
+  font-size: 24px;
+
+  @media (max-width: 450px) {
+  }
+}
+
+.card-info {
+  font-size: var(--ft20);
+
+  @media (max-width: 450px) {
+  }
+}
+
+.card-btn-ctn {
+  display: flex;
+  align-items: center;
+  margin-top: 1.4375em; /* 23px */
+  gap: 1.125em; /* 18px */
+
+  @media (max-width: 450px) {
+  }
+}
+
+.card-btn {
+  border: none;
+  width: 8.625rem; /* 138px */
+  height: 1.875rem; /* 30px */
+  border-radius: 10px;
+  font-size: var(--ft14);
+  font-weight: bold;
+  color: var(--basic-white);
+  cursor: pointer;
+
+  transition: 0.3s ease-in-out;
+
+  @media (max-width: 450px) {
+  }
+}
+
+.card-btn:hover {
+    transform: scale(1.1);
+    filter: brightness(1.1);
+}
+
+.update {
+  background-color: var(--button-green);
+
+  @media (max-width: 450px) {
+  }
+}
+
+.delete {
+  background-color: var(--button-red);
+  @media (max-width: 450px) {
+  }
+}

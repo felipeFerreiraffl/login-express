@@ -8,3 +8,21 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.users-txt-color {
+  color: var(--basic-white);
+
+  @media (max-width: 450px) {
+        
+  }
+}
+
+.users-title {
+  font-size: var(--ft38);
+  align-self: self-start;
+  margin: 3.75rem 5.5rem; /* 60px 88px */
+
+  @media (max-width: 450px) {
+        
+  }
+}

@@ -9,6 +9,10 @@
   padding: 0.875rem 1.25rem;
   font-size: var(--ft16);
   outline: none;
+
+  @media (max-width: 450px) {
+        
+  }
 }
 
 .btn-cadastro::placeholder {

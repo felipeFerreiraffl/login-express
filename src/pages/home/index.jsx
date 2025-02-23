@@ -1,10 +1,11 @@
+import UserCard from "../../components/UserCard";
 import "./styles.css";
 import { IoMdPersonAdd } from "react-icons/io";
 
 export default function Home() {
   return (
     <div className="users-ctn">
-      <h1>Usuários</h1>
+      <h1 className="users-title users-txt-color">Usuários</h1>
 
       <IoMdPersonAdd
         className="users-add"
@@ -12,7 +13,14 @@ export default function Home() {
         color="var(--basic-white)"
       />
 
-      <div></div>
+      <div className="users-cards">
+        <UserCard />
+        <UserCard />
+        <UserCard />
+        <UserCard />
+        <UserCard />
+        <UserCard />
+      </div>
     </div>
   );
 }
