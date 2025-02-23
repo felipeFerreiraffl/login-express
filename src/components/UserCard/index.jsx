@@ -1,6 +1,6 @@
-import "./styles.css";
 import { IoIosAt, IoMdEye } from "react-icons/io";
 import { MdOutlinePassword } from "react-icons/md";
+import "./styles.css";
 
 export default function UserCard() {
   return (

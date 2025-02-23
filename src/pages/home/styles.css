@@ -13,7 +13,6 @@
   color: var(--basic-white);
 
   @media (max-width: 450px) {
-        
   }
 }
 
@@ -23,6 +22,20 @@
   margin: 3.75rem 5.5rem; /* 60px 88px */
 
   @media (max-width: 450px) {
-        
   }
+}
+
+.users-add {
+  position: absolute;
+  top: 60px;
+  right: 110px;
+  font-size: 67px;
+  cursor: pointer;
+  border-radius: 10px;
+
+  transition: 0.3s ease-in-out;
+}
+
+.users-add:hover {
+  background-color: var(--card-gray);
 }
