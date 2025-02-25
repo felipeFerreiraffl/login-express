@@ -43,7 +43,14 @@
 .users-cards {
   align-self: flex-start;
   margin-left: 5.5rem;
+  width: 81%;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 1.5625em 5.4375em
+  gap: 1.5625em 5.4375em;
+  max-height: 69%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  padding-right: 5.5625em;
+
+  scrollbar-color: var(--border-green) var(--card-gray);
 }

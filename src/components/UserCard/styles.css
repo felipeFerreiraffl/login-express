@@ -6,6 +6,7 @@
   border: solid 4px var(--border-green);
   border-radius: 15px;
   padding: 0.875em 1.25em; /* 14px 20px */
+  max-width: 22.125rem; /* 354px */
   color: var(--basic-white);
 
   @media (max-width: 450px) {
