@@ -2,7 +2,7 @@ import { IoIosAt, IoMdEye } from "react-icons/io";
 import { MdOutlinePassword } from "react-icons/md";
 import "./styles.css";
 
-export default function UserCard() {
+export default function UserCard({ onClick1 }) {
   return (
     <div className="card-user">
       <div className="card-header">
@@ -29,7 +29,7 @@ export default function UserCard() {
       </div>
 
       <div className="card-btn-ctn">
-        <button className="card-btn update">Atualizar</button>
+        <button className="card-btn update" onClick={onClick1}>Atualizar</button>
         <button className="card-btn delete">Deletar</button>
       </div>
     </div>
